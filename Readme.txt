@@ -116,7 +116,7 @@ public OnPlayerConnect(playerid)
     new lnum2[32];
     
     format(lnum1, sizeof(lnum1), "%i", 1234567891);
-    format(lnum2, sizeof(lnum2), "%i", 9876543219);
+    format(lnum2, sizeof(lnum2), "%i", 8765432109);
     
     cal_add(lnum1, lnum2, lnumf, 1);
     
